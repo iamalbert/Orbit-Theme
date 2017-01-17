@@ -28,6 +28,9 @@
     .summary {
         text-align: justify;
     }
+    .project-title {
+        font-weight: bold;
+    }
     </style>
 </head> 
 
@@ -87,7 +90,7 @@
                 <h2 class="section-title"><i class="fa fa-user"></i>Profile</h2>
                 <div class="summary">
                     <p> 
-                    Hi, I am Wen-Li Zhuang (莊文立). I am a software engineer specialized in natural language processing, machine learning and deep neural networks.
+                    Hi, I am Wen-Li Zhuang (莊文立). I am a software engineer specialized in natural language processing, machine learning and deep neural networks. 
                     </p>
                 </div><!--//summary-->
             </section><!--//section-->
@@ -115,6 +118,10 @@
                         <div class="company">Appier Inc., Taipei</div>
                     </div><!--//meta-->
                     <div class="details">
+                        <ul>
+                            <li>Product clustering</li>
+                            <li>URL-Product correlation and ranking</li>
+                        </ul>
                     </div><!--//details-->
                 </div><!--//item-->
                 
@@ -151,8 +158,11 @@
                         <div class="company">Delta Electronics, Taipei</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
-                        
+                        <ul>
+                            <li>Improved the Chinese word-segmenter by domain adaptation</li>
+                            <li>Designed a domain-specific Chinese term extractor and named entity recognizer</li>
+                            <li>Implemented an English relation extractor using MV-RNN</li>
+                        </ul>
                     </div><!--//details-->
                 </div><!--//item-->
                 
@@ -186,7 +196,7 @@
                     </div><!--//meta-->
                     <div class="details">
                         <p>
-                        Our team built <i>Dr. Droid</i>, an family doctor bot in Chinese. Dr. Droid will ask the client serveral questions for common sign and symptons like fever and headache, and then offer preliminary diagnosis or suggest the client go to hospital for expert opinion. The dialog process is based on methods hybrid of rules and machine learning.
+                        Our team built an family doctor bot in Chinese. The bot asks the client serveral questions for common sign and symptons like fever and headache, and then offer preliminary diagnosis or suggest the client go to hospital for expert opinion. The dialog process is hybrid rules-based and deep learning methods.
                         </p>
 
                     </div><!--//details-->
@@ -202,25 +212,28 @@
             <section class="section projects-section">
                 <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
                 <div class="intro">
-                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                    <!--<p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>-->
                 </div><!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a href="#hook">Velocity</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote, market and sell their products.</span>
-                    
+                    <span class="project-title"><a href="https://github.com/torch">Torch </a></span> - <span class="project-tagline">Contributed several bug-fixes to Torch core and nn package. I also write several libraries and routines for nlp daily tasks: <a href="https://github.com/iamalbert/torch-word-emb">torch-word-emb</a> loads pretrained word vectors into Torch tensors and <a href="https://github.com/iamalbert/luajit-cjson">luajit-cjson</a>, fast and robust JSON parser for LuaJIT</span>
                 </div><!--//item-->
+                
                 <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> - 
-                    <span class="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
-                </div><!--//item-->
+                    <span class="project-title"><a href="#">Dr. Droid</a></span> - 
+                    <span class="project-tagline">Deep learning based chatbot implemented in Big Data x Maker Hackathon</span>
+                </div>
+
                 <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/" target="_blank">Tempo</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote their products or services and to attract users &amp; investors</span>
-                </div><!--//item-->
+                    <span class="project-title"><a href="#">Lightweight Hidden Markov Model</a></span> - 
+                    <span class="project-tagline">Almost drop-in replacement for HTK. Written in C and can run on embedded Linux</span>
+                </div>
                 <div class="item">
-                    <span class="project-title"><a href="hhttp://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">Atom</a></span> - <span class="project-tagline">A comprehensive website template solution for startups/developers to market their mobile apps. </span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Delta</a></span> - <span class="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote their mobile apps</span>
-                </div><!--//item-->
+                    <span class="project-title"><a href="#">GigE Vision Protocol Implementation</a></span> - 
+                    <span class="project-tagline">
+                        Senior project in my third year in university, written in C. High-performance industrial cameras over ethernet. Streaming high-speed video and control data in UDP
+                    </span>
+                </div>
+
             </section><!--//section-->
             
             <section class="skills-section section">
